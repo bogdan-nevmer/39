@@ -1,5 +1,7 @@
 #include "util.h"
+#include "sort.h"
 #include <time.h>
+
 #define SIZE 20
 
 int main() {
@@ -8,8 +10,10 @@ int main() {
 
 	init(array, SIZE, -20, 20);
 
-	cout << "array " << convert(array, SIZE) << endl;
+	cout << "before array " << convert(array, SIZE) << endl;
 
+	bubble_sort( array,SIZE);
 
+	cout << "before array " << bubble_sort(array, SIZE) << endl;
 	return 0;
 }
