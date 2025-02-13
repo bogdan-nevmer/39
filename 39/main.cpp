@@ -12,7 +12,8 @@ int main() {
 
 	cout << "before array " << convert(array, SIZE) << endl;
 
-	bubble_sort( array,SIZE);
+	//bubble_sort( array,SIZE);
+	selected_sort(array, SIZE);
 
 	cout << "before array " << bubble_sort(array, SIZE) << endl;
 	return 0;

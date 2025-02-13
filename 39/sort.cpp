@@ -20,5 +20,22 @@ void bubble_sort(int* array, int size) {
 			break;
 		}
 	}
-	cout << "count= " <<count<< endl;
+	void selected_sort(int* array, int size) {
+		
+
+		for (int j = 0  ; j < size -1; j++)
+		{
+			
+			for (int i = j + 1; i < size; i++)
+			{
+				if (array[i] > array[index])
+				{
+					index = i;
+				}
+			}
+		}
+		int t = array[j];
+		array[j] = array[index];
+		array[index] = t;
+	}
 }
