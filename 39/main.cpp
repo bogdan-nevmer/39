@@ -1,9 +1,9 @@
-#include "util.h"
+п»ї#include "util.h"
 #include "sort.h"
 #include <time.h>
 
 #define SIZE 20
-//это мощьный комментарий 
+//СЌС‚Рѕ РјРѕС‰СЊРЅС‹Р№ РєРѕРјРјРµРЅС‚Р°СЂРёР№ 
 int main() {
 	srand(time(NULL));
 	int array[SIZE];
