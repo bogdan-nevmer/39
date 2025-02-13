@@ -3,7 +3,7 @@
 #include <time.h>
 
 #define SIZE 20
-
+//это мощьный комментарий 
 int main() {
 	srand(time(NULL));
 	int array[SIZE];
